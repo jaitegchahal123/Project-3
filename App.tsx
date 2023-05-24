@@ -9,6 +9,7 @@ import { EntryStackScreen } from "./screens/EntryStackScreen";
 // directory & add your Firebase configuration keys to that file.
 // We add this file to our gitignore, since we don't want this to be
 // published on Version Control.
+
 const firebaseConfig = require("./keys.json");
 
 if (getApps().length == 0) {
